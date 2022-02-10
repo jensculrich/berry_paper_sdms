@@ -63,6 +63,8 @@ shape_joined_2 <- shape_joined_1 %>%
 out_of_bounds <- read.csv("./Geo_Data/out_of_bound_ranges_provincial.csv")
 sp_distr_province <- anti_join(shape_joined_2, out_of_bounds, by = c('SPECIES', 'PROVINCE'))
 
+write.csv(sp_distr_province, "./occurrence_data/occurrence_data_cleaned.csv")
+
 # trim bioclim rasters to Canada
 canada <- st_read("./Geo_Data/canada.geojson", quiet = TRUE) # 1
 crs_string = "+proj=lcc +lat_1=49 +lat_2=77 +lon_0=-91.52 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs" # 2
