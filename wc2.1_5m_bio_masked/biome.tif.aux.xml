@@ -1,0 +1,37 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <CategoryNames>
+      <Category></Category>
+      <Category>17016</Category>
+      <Category>17077</Category>
+      <Category>17078</Category>
+      <Category>17082</Category>
+      <Category>17030</Category>
+      <Category>17034</Category>
+      <Category>17009</Category>
+      <Category>17022</Category>
+      <Category>17023</Category>
+      <Category>17038</Category>
+      <Category>17039</Category>
+      <Category>17040</Category>
+      <Category>17041</Category>
+      <Category>17042</Category>
+      <Category>17051</Category>
+      <Category>17052</Category>
+      <Category>17053</Category>
+      <Category>17054</Category>
+      <Category>17055</Category>
+      <Category>17057</Category>
+      <Category>17058</Category>
+      <Category>17060</Category>
+      <Category>17061</Category>
+      <Category>17062</Category>
+      <Category>17064</Category>
+      <Category>17071</Category>
+      <Category>17072</Category>
+      <Category>17073</Category>
+      <Category>17083</Category>
+      <Category>17084</Category>
+    </CategoryNames>
+  </PAMRasterBand>
+</PAMDataset>
