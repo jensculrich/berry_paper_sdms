@@ -1,12 +1,11 @@
-### Berry Conservation - Species Distributions
+### Berry Conservation - Species Distribution Models
+### Data cleaning
 
 library(tidyverse)
 library(sf)
 library(maptools)
 library(geojsonsf)
 library(raster)
-
-### Data cleaning
 
 berry_df1 <- read.csv("./occurrence_data/berry_occurrence.csv")
 berry_df2 <- read.csv("./occurrence_data/berry_occurrence_part2.csv")
