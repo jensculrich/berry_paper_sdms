@@ -52,9 +52,15 @@ str(provinces)
 # spatial join between provinces and lat/long of points
 shape_joined_1 <- st_join(points, provinces, join = st_nearest_feature, maxdist = 10000)
 
+shape_joined_2 <- shape_joined_1 %>%
+  select(-cartodb_id, -draworder, - visibility, -extrude, -tessellate, -nom,
+         -icon, -altitudemode, -X_end, -begin, -timestamp, -show, -X_2012_membership) %>%
+  mutate(species = str_replace(species, "×", "")) %>%
+  rename("SPECIES" = "species",
+         "PROVINCE" = "name")
+
 # now read in file with clearly out of bounds provinces (as described in FNA 2021)
+out_of_bounds <- read.csv("./Geo_Data/out_of_bound_ranges_provincial.csv")
+sp_distr_province <- anti_join(shape_joined_2, out_of_bounds, by = c('SPECIES', 'PROVINCE'))
 
-
-# R cannot match the odd hybrid x symbols, so make sure to remove them all
-shape_joined_1 <- shape_joined_1 %>% 
-  mutate(species = str_replace(species, "×", ""))
+  
