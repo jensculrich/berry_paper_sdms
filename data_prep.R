@@ -1,8 +1,9 @@
 ### Berry Conservation - Species Distributions
 
 library(tidyverse)
-library(sp)
+library(sf)
 library(maptools)
+library(geojsonsf)
 
 ### Data cleaning
 
@@ -37,3 +38,23 @@ points(occurrence_rubus_canadensis$decimalLongitude,
 points(occurrence_rubus_canadensis$decimalLongitude, 
        occurrence_rubus_canadensis$decimalLatitude, 
        col='red', cex=0.75)
+
+## remove some strange and far out of bounds occurrences 
+# join province name to all points
+# Convert to geoJSON for spatial projection
+spatial_df <- df_geojson(df = occurrence_df, lon = "decimalLongitude", lat = "decimalLatitude")
+points <- geojson_sf(spatial_df)
+
+# read province data
+provinces <- st_read("./geo_data/canada_provinces.geojson")
+str(provinces)
+
+# spatial join between provinces and lat/long of points
+shape_joined_1 <- st_join(points, provinces, join = st_nearest_feature, maxdist = 10000)
+
+# now read in file with clearly out of bounds provinces (as described in FNA 2021)
+
+
+# R cannot match the odd hybrid x symbols, so make sure to remove them all
+shape_joined_1 <- shape_joined_1 %>% 
+  mutate(species = str_replace(species, "×", ""))
