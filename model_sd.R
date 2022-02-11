@@ -120,7 +120,6 @@ SSDM <- stack_modelling("MAXENT", occurrence_df_ssdm_test,
 
 save.stack(SSDM, name = "Stack", path = getwd(), verbose = TRUE, GUI = FALSE)
 
-par(mfrow=c(1,1), mai = c(1, 0.5, 1, 1))
+par(mfrow=c(1,1), mai = c(1, .5, 1, .5))
 plot(SSDM@diversity.map, main = 'stacked SDM\n for 4 berry species \nwith Maxent algorithms')
 
-# test
