@@ -1,0 +1,4388 @@
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:11:58 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+0
+2
+Maximum number of records after thinning: 0
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Created new output directory: thinned
+Writing file: thinned/1_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:13:47 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+0
+2
+Maximum number of records after thinning: 0
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/1_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:13:48 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+0
+2
+Maximum number of records after thinning: 0
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/2_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:13:48 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.05 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+0
+2
+Maximum number of records after thinning: 0
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/3_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:14:41 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.28 0.14 0.47 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+149
+2
+Maximum number of records after thinning: 149
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/3_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:15:42 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.04 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+0
+2
+Maximum number of records after thinning: 0
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/SPECIES_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:16:15 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.19 0.22 0.45 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+149
+2
+Maximum number of records after thinning: 149
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+thinned/SPECIES_thin1_new.csv ' already exists. Renaming file 
+                                   to avoid overwriting.
+Writing file: thinned/SPECIES_thin1_new.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:16:39 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.25 0.16 0.45 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+149
+2
+Maximum number of records after thinning: 149
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Malus fusca_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:17:52 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+0
+2
+Maximum number of records after thinning: 0
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/SPECIES_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:17:52 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+0
+2
+Maximum number of records after thinning: 0
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/HUMAN_OBSERVATION_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:17:53 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.54 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+0
+2
+Maximum number of records after thinning: 0
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Arbutus menziesii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:18:44 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.01 0.06 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+0
+2
+Maximum number of records after thinning: 0
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Arctostaphylos uva-ursi_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:18:45 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+0
+2
+Maximum number of records after thinning: 0
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier alnifolia_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:18:45 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+0
+2
+Maximum number of records after thinning: 0
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Arbutus menziesii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:19:35 2022
+There appear to be more than one species name in this *.csv file.
+Only using species name: Amelanchier arborea
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.88 0.53 1.45 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+365	367
+1	1
+Maximum number of records after thinning: 367
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Arctostaphylos uva-ursi_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:19:37 2022
+There appear to be more than one species name in this *.csv file.
+Only using species name: Amelanchier arborea
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.89 0.45 1.65 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+367	368
+1	1
+Maximum number of records after thinning: 368
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier alnifolia_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:19:39 2022
+There appear to be more than one species name in this *.csv file.
+Only using species name: Amelanchier arborea
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.89 0.44 1.66 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+367
+2
+Maximum number of records after thinning: 367
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Arbutus menziesii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:23:08 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+170.42 87.89 259.29 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1273	1275
+1	1
+Maximum number of records after thinning: 1275
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Arctostaphylos uva-ursi_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:27:28 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+136.15 66.89 203.48 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+921	922
+1	1
+Maximum number of records after thinning: 922
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier alnifolia_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:30:52 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+58.42 26.83 85.6 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+88	92
+1	1
+Maximum number of records after thinning: 92
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Arbutus menziesii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:18 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.15 0.17 0.64 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+54	55
+1	1
+Maximum number of records after thinning: 55
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Arctostaphylos columbiana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:19 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.05 0 0.14 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+271
+2
+Maximum number of records after thinning: 271
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier bartramiana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:20 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.08 0.04 0.58 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+226
+2
+Maximum number of records after thinning: 226
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Arctostaphylos rubra_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:21 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0.02 0.11 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+157
+2
+Maximum number of records after thinning: 157
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier arborea_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:22 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0.06 0.59 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+59
+2
+Maximum number of records after thinning: 59
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier canadensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:23 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+44
+2
+Maximum number of records after thinning: 44
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier spicata_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:24 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0.02 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+147
+2
+Maximum number of records after thinning: 147
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier laevis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:25 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0.01 0.07 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+106
+2
+Maximum number of records after thinning: 106
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier sanguinea_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:25 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.04 0.03 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+36
+2
+Maximum number of records after thinning: 36
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier humilis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:27 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+71
+2
+Maximum number of records after thinning: 71
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier interior_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:27 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.03 0.53 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+51
+2
+Maximum number of records after thinning: 51
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier intermedia_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:28 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+3
+2
+Maximum number of records after thinning: 3
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Amelanchier pumila_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:29 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0.03 0.63 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+95	96
+1	1
+Maximum number of records after thinning: 96
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus punctata_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:30 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+6.64 3.26 10.19 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+468	471
+1	1
+Maximum number of records after thinning: 471
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum lantanoides_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:41 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+40
+2
+Maximum number of records after thinning: 40
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus submollis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:42 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+14
+2
+Maximum number of records after thinning: 14
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus scabrida_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:43 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+121
+2
+Maximum number of records after thinning: 121
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus chrysocarpa_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:44 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.03 0.63 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+13
+2
+Maximum number of records after thinning: 13
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus suborbiculata_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:45 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.04 0.08 0.42 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+82
+2
+Maximum number of records after thinning: 82
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Cornus nuttallii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:46 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.04 0.22 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+21
+2
+Maximum number of records after thinning: 21
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus holmesiana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:47 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.53 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+16
+2
+Maximum number of records after thinning: 16
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus mollis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:48 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0.05 0.56 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+8
+2
+Maximum number of records after thinning: 8
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus coccinioides_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:49 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+6
+2
+Maximum number of records after thinning: 6
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus canadensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:49 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.03 0.53 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+31
+2
+Maximum number of records after thinning: 31
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus flabellata_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:51 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+14
+2
+Maximum number of records after thinning: 14
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus irrasa_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:51 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0.02 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+41
+2
+Maximum number of records after thinning: 41
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus crus-galli_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:52 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.11 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+20
+2
+Maximum number of records after thinning: 20
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus pruinosa_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:53 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0 0.54 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+48
+2
+Maximum number of records after thinning: 48
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus macrosperma_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:54 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+7
+2
+Maximum number of records after thinning: 7
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus laevigata_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:55 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.08 0.79 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+17
+2
+Maximum number of records after thinning: 17
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Physalis longifolia_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:56 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.28 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+12
+2
+Maximum number of records after thinning: 12
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus dodgei_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:32:57 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+4.95 2.71 8.17 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+538	540
+1	1
+Maximum number of records after thinning: 540
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum nudum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:06 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.04 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+11
+2
+Maximum number of records after thinning: 11
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus schuettei_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:06 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0.02 0.54 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+4
+2
+Maximum number of records after thinning: 4
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus brainerdii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:08 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.03 0.22 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+12
+2
+Maximum number of records after thinning: 12
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus coccinea_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:08 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.04 0 0.53 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+57
+2
+Maximum number of records after thinning: 57
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus succulenta_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:10 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.05 0.03 0.58 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+117
+2
+Maximum number of records after thinning: 117
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rosa carolina_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:11 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+2
+2
+Maximum number of records after thinning: 2
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus persimilis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:11 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0.01 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+21
+2
+Maximum number of records after thinning: 21
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus calpodendron_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:12 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+7
+2
+Maximum number of records after thinning: 7
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus rivuloadamensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:13 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+6
+2
+Maximum number of records after thinning: 6
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus okanaganensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:14 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+3
+2
+Maximum number of records after thinning: 3
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus gaylussacia_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:15 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0 0.53 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+9
+2
+Maximum number of records after thinning: 9
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus cupressocollina_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:16 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+6
+2
+Maximum number of records after thinning: 6
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus rivulopugnensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:17 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.63 0.25 1.47 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+549
+2
+Maximum number of records after thinning: 549
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus arcticus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:19 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.04 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+4
+2
+Maximum number of records after thinning: 4
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus shuswapensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:19 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.58 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+3
+2
+Maximum number of records after thinning: 3
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus enderbyensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:21 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+8
+2
+Maximum number of records after thinning: 8
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus castlegarensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:21 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0.02 0.54 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+5
+2
+Maximum number of records after thinning: 5
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus intricata_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:22 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+6
+2
+Maximum number of records after thinning: 6
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus ursopedensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:23 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.03 0.54 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+13
+2
+Maximum number of records after thinning: 13
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus rubribracteolata_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:24 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+4
+2
+Maximum number of records after thinning: 4
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus sheila-phippsiae_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:25 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+11
+2
+Maximum number of records after thinning: 11
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus pringlei_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:26 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+10
+2
+Maximum number of records after thinning: 10
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus compacta_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:27 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0.06 0.6 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+6
+2
+Maximum number of records after thinning: 6
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus aquacervensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:28 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0 0.11 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+3
+2
+Maximum number of records after thinning: 3
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus phippsii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:28 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0.03 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1
+2
+Maximum number of records after thinning: 1
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus orbicularis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:30 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+4
+2
+Maximum number of records after thinning: 4
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus purpurella_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:30 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.58 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1
+2
+Maximum number of records after thinning: 1
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus okennonii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:31 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+2
+2
+Maximum number of records after thinning: 2
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus atrovirens_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:32 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.54 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1
+2
+Maximum number of records after thinning: 1
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus lumaria_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:33 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0.02 0.06 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1
+2
+Maximum number of records after thinning: 1
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus margarettae_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:34 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.05 0.53 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1
+2
+Maximum number of records after thinning: 1
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus perjucunda_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:35 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1
+2
+Maximum number of records after thinning: 1
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus nitidula_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:36 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.04 0.53 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+2
+2
+Maximum number of records after thinning: 2
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus jonesiae_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:37 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+7.86 3.52 11.62 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+874	876
+1	1
+Maximum number of records after thinning: 876
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Empetrum nigrum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 16:33:49 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+550.26 379.05 1849.98 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+2378	2379
+1	1
+Maximum number of records after thinning: 2379
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Cornus canadensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:04:40 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+236.95 153.93 392.73 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1521	1522
+1	1
+Maximum number of records after thinning: 1522
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Cornus sericea_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:11:13 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+2.2 1.67 4.19 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+269
+2
+Maximum number of records after thinning: 269
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Cornus unalaschkensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:11:18 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.04 0.01 0.15 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+123
+2
+Maximum number of records after thinning: 123
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus douglasii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:11:19 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.01 0.56 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+20
+2
+Maximum number of records after thinning: 20
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Crataegus macracantha_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:11:20 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+50
+2
+Maximum number of records after thinning: 50
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Cornus amomum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:11:21 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.1 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+60
+2
+Maximum number of records after thinning: 60
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Cornus suecica_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:11:22 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+90.15 49.43 140.61 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1572	1573
+1	1
+Maximum number of records after thinning: 1573
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Fragaria virginiana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:13:43 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+29.57 15.72 45.74 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+744	745
+1	1
+Maximum number of records after thinning: 745
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Gaultheria procumbens_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:14:29 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+328.4 215.19 545.5 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+279
+2
+Maximum number of records after thinning: 279
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Gaultheria shallon_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:23:35 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+3.09 1.85 5.25 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+658	659
+1	1
+Maximum number of records after thinning: 659
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Fragaria vesca_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:23:41 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.86 0.54 1.72 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+267	268
+1	1
+Maximum number of records after thinning: 268
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Gaylussacia baccata_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:23:44 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+2.61 1.11 4.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+650	651
+1	1
+Maximum number of records after thinning: 651
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Gaultheria hispidula_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:23:48 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.01 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+41
+2
+Maximum number of records after thinning: 41
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Gaylussacia bigeloviana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:23:49 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.05 0.05 0.61 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+65
+2
+Maximum number of records after thinning: 65
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Fragaria chiloensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:23:50 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0.02 0.12 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+90
+2
+Maximum number of records after thinning: 90
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Gaultheria ovatifolia_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:23:51 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0.02 0.6 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+45
+2
+Maximum number of records after thinning: 45
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Gaultheria humifusa_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:23:52 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+28
+2
+Maximum number of records after thinning: 28
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Fragaria ananassa_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:23:53 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+101.86 45.42 148.03 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+147
+2
+Maximum number of records after thinning: 147
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Mahonia nervosa_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:26:21 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+111.28 55.16 167.07 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+357	359
+1	1
+Maximum number of records after thinning: 359
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Mahonia aquifolium_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:29:09 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+21.24 10.61 32.26 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+643	644
+1	1
+Maximum number of records after thinning: 644
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Mitchella repens_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:29:42 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.01 0.11 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+33
+2
+Maximum number of records after thinning: 33
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Malus coronaria_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:29:43 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+10.46 5.5 16.51 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+56
+2
+Maximum number of records after thinning: 56
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Oemleria cerasiformis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:30:00 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.24 0.15 0.74 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+149
+2
+Maximum number of records after thinning: 149
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Malus fusca_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:30:01 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0 0.06 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+53
+2
+Maximum number of records after thinning: 53
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Mahonia repens_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:30:02 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.05 0.73 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+22
+2
+Maximum number of records after thinning: 22
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Morus rubra_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:30:03 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+2
+2
+Maximum number of records after thinning: 2
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Berberis aquifolium_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:30:04 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+25.01 12.95 38.57 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+267	268
+1	1
+Maximum number of records after thinning: 268
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Podophyllum peltatum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:30:43 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.11 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+117
+2
+Maximum number of records after thinning: 117
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Physalis heterophylla_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:30:44 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.05 0.54 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+12
+2
+Maximum number of records after thinning: 12
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Physalis virginiana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:30:45 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+123.79 71.44 195.88 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1292	1295
+1	1
+Maximum number of records after thinning: 1295
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Prunus virginiana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:01 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.22 0.22 0.75 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+41
+2
+Maximum number of records after thinning: 41
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes cereum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:03 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+2.81 1.28 4.42 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+725
+2
+Maximum number of records after thinning: 725
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Prunus pensylvanica_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:08 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+10.16 5 15.52 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+520
+2
+Maximum number of records after thinning: 520
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Prunus serotina_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:24 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.03 0.11 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+45
+2
+Maximum number of records after thinning: 45
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes laxiflorum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:25 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.12 0.06 0.69 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+273
+2
+Maximum number of records after thinning: 273
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus allegheniensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:26 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+3.73 1.86 6.15 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+764
+2
+Maximum number of records after thinning: 764
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rosa acicularis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:33 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+71
+2
+Maximum number of records after thinning: 71
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rosa nitida_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:33 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.28 0.14 0.97 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+296
+2
+Maximum number of records after thinning: 296
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rosa woodsii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:35 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.17 0.02 0.51 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+89	90
+1	1
+Maximum number of records after thinning: 90
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rosa gymnocarpa_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:36 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.05 0 0.12 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+103
+2
+Maximum number of records after thinning: 103
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes bracteosum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:37 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0.01 0.6 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+194	195
+1	1
+Maximum number of records after thinning: 195
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes americanum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:38 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0 0.12 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+145
+2
+Maximum number of records after thinning: 145
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Prunus nigra_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:39 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.53 0.18 1.25 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+491
+2
+Maximum number of records after thinning: 491
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes lacustre_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:41 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.27 0.21 0.78 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+246
+2
+Maximum number of records after thinning: 246
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes cynosbati_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:42 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.08 0.11 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+168	170
+1	1
+Maximum number of records after thinning: 170
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rosa arkansana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:43 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.5 0.46 1.34 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+187
+2
+Maximum number of records after thinning: 187
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rosa nutkana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:45 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.08 0.02 0.19 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+374
+2
+Maximum number of records after thinning: 374
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes triste_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:46 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0.03 0.6 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+88
+2
+Maximum number of records after thinning: 88
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Prunus emarginata_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:47 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.06 0 0.14 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+129
+2
+Maximum number of records after thinning: 129
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Prunus pumila_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:48 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.07 0.02 0.58 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+101
+2
+Maximum number of records after thinning: 101
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes aureum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:49 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0 0.12 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+214
+2
+Maximum number of records after thinning: 214
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes hirtellum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:50 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+2.83 1.39 4.78 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+118
+2
+Maximum number of records after thinning: 118
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes sanguineum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:55 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.11 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+44
+2
+Maximum number of records after thinning: 44
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes viscosissimum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:56 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0.04 0.56 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+48
+2
+Maximum number of records after thinning: 48
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus setosus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:57 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.04 0.01 0.16 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+238
+2
+Maximum number of records after thinning: 238
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes oxyacanthoides_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:58 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.61 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+52
+2
+Maximum number of records after thinning: 52
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rosa virginiana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:34:59 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0 0.13 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+191
+2
+Maximum number of records after thinning: 191
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rosa blanda_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:00 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0.03 0.56 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+169
+2
+Maximum number of records after thinning: 169
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes hudsonianum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:01 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0 0.11 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+115
+2
+Maximum number of records after thinning: 115
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rosa palustris_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:02 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.03 0.56 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+31
+2
+Maximum number of records after thinning: 31
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Prunus americana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:03 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0 0.07 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+22	23
+1	1
+Maximum number of records after thinning: 23
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rosa setigera_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:03 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.06 0.61 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+47
+2
+Maximum number of records after thinning: 47
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes divaricatum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:05 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+14
+2
+Maximum number of records after thinning: 14
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes lobbii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:05 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0.01 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+15
+2
+Maximum number of records after thinning: 15
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus paracaulis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:06 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+18
+2
+Maximum number of records after thinning: 18
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes inerme_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:07 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.56 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+13
+2
+Maximum number of records after thinning: 13
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rosa pisocarpa_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:08 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+34
+2
+Maximum number of records after thinning: 34
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Prunus depressa_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:09 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0.06 0.54 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+12
+2
+Maximum number of records after thinning: 12
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus recurvicaulis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:10 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+15
+2
+Maximum number of records after thinning: 15
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Prunus susquehanae_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:11 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1
+2
+Maximum number of records after thinning: 1
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Ribes odoratum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:12 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.78 0.37 1.47 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+247
+2
+Maximum number of records after thinning: 247
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus pedatus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:35:14 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+89.15 37.22 127.05 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1058	1059
+1	1
+Maximum number of records after thinning: 1059
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Shepherdia canadensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:37:22 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+12.56 5.73 18.67 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1111	1112
+1	1
+Maximum number of records after thinning: 1112
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus idaeus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:37:41 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0.03 0.29 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+59	60
+1	1
+Maximum number of records after thinning: 60
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Sambucus caerulea_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:37:42 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0.02 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+206
+2
+Maximum number of records after thinning: 206
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Sorbus decora_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:37:43 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+13.2 7 20.81 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+135
+2
+Maximum number of records after thinning: 135
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus ursinus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:38:04 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.81 0.49 1.62 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+516
+2
+Maximum number of records after thinning: 516
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus chamaemorus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:38:06 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+128.41 68.31 197.48 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+293
+2
+Maximum number of records after thinning: 293
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus spectabilis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:41:24 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+46.81 24.29 71.72 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+489	490
+1	1
+Maximum number of records after thinning: 490
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus odoratus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:42:37 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+8.54 4.98 14.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+787	789
+1	1
+Maximum number of records after thinning: 789
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium angustifolium_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:42:52 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+1.25 0.75 2.35 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+306	307
+1	1
+Maximum number of records after thinning: 307
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus occidentalis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:42:54 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+137.35 73.09 211.8 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1265	1269
+1	1
+Maximum number of records after thinning: 1269
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Sambucus racemosa_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:27 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.13 0.14 0.59 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+337	338
+1	1
+Maximum number of records after thinning: 338
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Sorbus americana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:28 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.41 0.36 1.13 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+332	334
+1	1
+Maximum number of records after thinning: 334
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Sambucus canadensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:30 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0 0.11 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+108
+2
+Maximum number of records after thinning: 108
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Sorbus sitchensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:31 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0.01 0.62 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+83	86
+1	1
+Maximum number of records after thinning: 86
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Shepherdia argentea_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:32 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+74
+2
+Maximum number of records after thinning: 74
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus leucodermis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:33 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.55 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+36
+2
+Maximum number of records after thinning: 36
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus pensilvanicus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:34 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.04 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+82
+2
+Maximum number of records after thinning: 82
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus canadensis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:34 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0.03 0.83 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+93
+2
+Maximum number of records after thinning: 93
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Sorbus scopulina_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:36 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+9
+2
+Maximum number of records after thinning: 9
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus nivalis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:36 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.06 0.61 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+50
+2
+Maximum number of records after thinning: 50
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus flagellaris_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:38 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.05 0.37 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+75
+2
+Maximum number of records after thinning: 75
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus nutkanus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:39 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0.03 0.63 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+3
+2
+Maximum number of records after thinning: 3
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Rubus lasiococcus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:40 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.13 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+3
+2
+Maximum number of records after thinning: 3
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium nubigenum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:41 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+2.83 1.56 4.9 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+672
+2
+Maximum number of records after thinning: 672
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum edule_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:46 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.72 0.39 1.61 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+62	63
+1	1
+Maximum number of records after thinning: 63
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium ovatum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:46:49 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+47.33 24.83 72.77 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+251	252
+1	1
+Maximum number of records after thinning: 252
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium parvifolium_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:48:02 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+7.92 4.72 13.33 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+385	386
+1	1
+Maximum number of records after thinning: 386
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vitis riparia_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:48:16 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+26.48 13.64 40.48 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+844
+2
+Maximum number of records after thinning: 844
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum opulus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:48:57 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.22 0.2 1.23 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+226	227
+1	1
+Maximum number of records after thinning: 227
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium ovalifolium_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:48:59 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.64 0.48 1.71 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+216
+2
+Maximum number of records after thinning: 216
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum acerifolium_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:01 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+6.42 3.6 10.61 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+808
+2
+Maximum number of records after thinning: 808
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium vitis-idaea_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:13 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.7 0.43 1.56 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+574	575
+1	1
+Maximum number of records after thinning: 575
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium oxycoccos_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:15 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.54 0.22 1.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+341	342
+1	1
+Maximum number of records after thinning: 342
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium macrocarpon_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:17 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.04 0 0.12 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+85	86
+1	1
+Maximum number of records after thinning: 86
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum lantana_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:17 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.08 0.03 0.62 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+155	156
+1	1
+Maximum number of records after thinning: 156
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium membranaceum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:19 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+1.3 0.83 2.46 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+331	332
+1	1
+Maximum number of records after thinning: 332
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum lentago_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:22 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+1.05 0.47 1.88 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+618	620
+1	1
+Maximum number of records after thinning: 620
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium myrtilloides_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:24 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+1.03 0.66 2.04 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+590
+2
+Maximum number of records after thinning: 590
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium uliginosum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:27 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.1 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+28
+2
+Maximum number of records after thinning: 28
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum recognitum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:27 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0.02 0.58 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+69
+2
+Maximum number of records after thinning: 69
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium scoparium_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:29 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.07 0.07 0.33 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+165	167
+1	1
+Maximum number of records after thinning: 167
+Number of data.frames with max records: 1
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum rafinesqueanum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:30 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.06 0.03 0.64 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+111
+2
+Maximum number of records after thinning: 111
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium corymbosum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:31 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.01 0.08 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+14
+2
+Maximum number of records after thinning: 14
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum dentatum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:31 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0.03 0.65 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+261
+2
+Maximum number of records after thinning: 261
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium cespitosum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:33 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0 0.04 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+46
+2
+Maximum number of records after thinning: 46
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vitis aestivalis_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:33 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0.02 0.57 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+72
+2
+Maximum number of records after thinning: 72
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium microcarpum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:35 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+30
+2
+Maximum number of records after thinning: 30
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium myrtillus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:35 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0.01 0.54 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+4
+2
+Maximum number of records after thinning: 4
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum davidii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:36 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0.02 0.11 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+26
+2
+Maximum number of records after thinning: 26
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium deliciosum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:37 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.56 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1
+2
+Maximum number of records after thinning: 1
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum rufidulum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:38 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.02 0 0.09 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+22
+2
+Maximum number of records after thinning: 22
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium pallidum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:39 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.01 0.01 0.56 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+96
+2
+Maximum number of records after thinning: 96
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum rafinesquianum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:40 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.08 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+37
+2
+Maximum number of records after thinning: 37
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium boreale_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:41 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0.02 0.57 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1
+2
+Maximum number of records after thinning: 1
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum carlesii_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:42 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.04 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+5
+2
+Maximum number of records after thinning: 5
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Vaccinium stamineum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:43 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.05 0.01 0.6 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+4
+2
+Maximum number of records after thinning: 4
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum plicatum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:44 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0 0.08 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1
+2
+Maximum number of records after thinning: 1
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum bodnantense_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:44 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0.03 0.05 0.56 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1
+2
+Maximum number of records after thinning: 1
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum tinus_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:46 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.03 0.31 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+1
+2
+Maximum number of records after thinning: 1
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Viburnum pauciflorum_thin1.csv
+********************************************** 
+ Beginning Spatial Thinning.
+ Script Started at: Thu Feb 10 17:49:46 2022
+
+Thinning Parameter Used (in km): 10
+Number of replicates of thinning script: 2
+
+Elapsed time for thinning completion
+0 0.02 0.58 NA NA
+
+Number of data.frames per locations retained
+loc.cnt df.freq
+144
+2
+Maximum number of records after thinning: 144
+Number of data.frames with max records: 2
+
+**New *.csv file creation:**
+Writing new *.csv files to output directory: thinned
+Writing file: thinned/Arctostaphylos alpinus_thin1.csv

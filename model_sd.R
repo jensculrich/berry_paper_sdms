@@ -9,7 +9,7 @@ library(tidyverse)
 data(wrld_simpl)
 library(SSDM)
 
-occurrence_df <- read.csv("./occurrence_data/occurrence_data_cleaned.csv")
+occurrence_df <- read.csv("./occurrence_data/occurrence_data_cleaned_thinned.csv")
 
 bioclim1 <- raster("./wc2.1_5m_bio_masked/wc2.1_5m_bio_1.tif", quiet = TRUE) # 1
 bioclim2 <- raster("./wc2.1_5m_bio_masked/wc2.1_5m_bio_2.tif", quiet = TRUE) # 1
@@ -35,6 +35,7 @@ biome <- raster("./wc2.1_5m_bio_masked/biome.tif", quiet = TRUE)
 # can test that everything looks right
 occurrence_df_test <- occurrence_df %>%
   filter(SPECIES == "Malus fusca")
+
 # plot(bioclim1)
 # points(occurrence_df_test$longitude, 
 #        occurrence_df_test$latitude, 
@@ -61,9 +62,10 @@ predictors <- stack(bioclim1, bioclim2, bioclim3, bioclim4, bioclim5,
 #points(occurrence_df_test$longitude, 
 #       occurrence_df_test$latitude, 
 #       col='black', pch=20, cex=0.75)
+
 ext <- extent(bioclim1)
 
-occurrence_df_test <- occurrence_df_test[,11:12]
+occurrence_df_test <- occurrence_df_test[,2:3]
 group <- kfold(occurrence_df_test, 5)
 
 pres_train <- occurrence_df_test[group != 1, ]
@@ -107,5 +109,16 @@ occurrence_df_ssdm <- occurrence_df %>%
 # species <- occurrence_df_ssdm %>% 
 #   distinct(SPECIES, .keep_all = TRUE)
 
+occurrence_df_ssdm_test <- occurrence_df_ssdm %>%
+  filter(SPECIES == "Malus fusca" | SPECIES == "Rubus canadensis" |
+           SPECIES == "Amelanchier alnifolia" | SPECIES == "Fragaria vesca")
 
+SSDM <- stack_modelling("Maxent", occurrence_df_ssdm, 
+                        predictors, rep = 1, ensemble.thresh = 0,
+                        Xcol = 'LONGITUDE', Ycol = 'LATITUDE',
+                        Spcol = 'SPECIES', method = "pSSDM", verbose = FALSE)
 
+save.stack(SSDM, name = "Stack", path = getwd(), verbose = TRUE, GUI = FALSE)
+
+par(mfrow=c(1,1), mai = c(1, 0.5, 0.5, 1))
+plot(SSDM@diversity.map, main = 'SSDM\n for berry species \nwith CTA and SVM algorithms')

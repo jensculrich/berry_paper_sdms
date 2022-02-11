@@ -75,18 +75,23 @@ species <- sp_distr_province_df %>%
 
 new_df <- data.frame()
 
-for(i in 1:nrow(species)){
+for(i in 1:nrow(species)){ # nrow(species) / 202 distinct species
   dat <- sp_distr_province_df %>%
-    filter(SPECIES == "Amelanchier alnifolia") # species[3,i]
+    filter(SPECIES == species[i,3]) # species[3,i]
   
-  species_dat <- thin(dat, 
-                      lat.col = "latitude",
-                      long.col = "longitude",
-                      spec.col = "SPECIES",
-                      thin.par = 10,
-                      reps = 2)
+  thinned <- thin(loc.data = dat, lat.col = "latitude", long.col = "longitude",
+                  spec.col = "SPECIES",
+                  thin.par = 10,
+                  reps = 2,
+                  out.dir = "thinned",
+                  out.base = species[i,3],
+                  write.log.file = TRUE,
+                  log.file = "thinning.txt",
+                  max.files = 1)
+   
+  thin <- read.csv(file = paste0("./thinned/", species[i,3], "_thin1.csv")) # 
   
-  new_df <- rbind(new_df, species_dat)
+  new_df <- rbind(new_df, thin)
 }
 
 sp_distr_province_thinned <- thin(sp_distr_province_df, 
@@ -96,6 +101,7 @@ sp_distr_province_thinned <- thin(sp_distr_province_df,
                                   thin.par = 10,
                                   reps = 2)
 
+# write.csv(new_df, "./occurrence_data/occurrence_data_cleaned_thinned")
 
 # trim bioclim rasters to Canada
 canada <- st_read("./Geo_Data/canada.geojson", quiet = TRUE) # 1
