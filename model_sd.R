@@ -113,14 +113,14 @@ occurrence_df_ssdm_test <- occurrence_df_ssdm %>%
   filter(SPECIES == "Malus fusca" | SPECIES == "Rubus canadensis" |
            SPECIES == "Amelanchier alnifolia" | SPECIES == "Fragaria vesca")
 
-SSDM <- stack_modelling("Maxent", occurrence_df_ssdm, 
+SSDM <- stack_modelling("MAXENT", occurrence_df_ssdm_test, 
                         predictors, rep = 1, ensemble.thresh = 0,
                         Xcol = 'LONGITUDE', Ycol = 'LATITUDE',
                         Spcol = 'SPECIES', method = "pSSDM", verbose = FALSE)
 
 save.stack(SSDM, name = "Stack", path = getwd(), verbose = TRUE, GUI = FALSE)
 
-par(mfrow=c(1,1), mai = c(1, 0.5, 0.5, 1))
-plot(SSDM@diversity.map, main = 'SSDM\n for berry species \nwith CTA and SVM algorithms')
+par(mfrow=c(1,1), mai = c(1, 0.5, 1, 1))
+plot(SSDM@diversity.map, main = 'stacked SDM\n for 4 berry species \nwith Maxent algorithms')
 
 # test
