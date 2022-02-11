@@ -122,3 +122,5 @@ save.stack(SSDM, name = "Stack", path = getwd(), verbose = TRUE, GUI = FALSE)
 
 par(mfrow=c(1,1), mai = c(1, 0.5, 0.5, 1))
 plot(SSDM@diversity.map, main = 'SSDM\n for berry species \nwith CTA and SVM algorithms')
+
+# test
