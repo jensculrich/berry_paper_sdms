@@ -96,7 +96,15 @@ plot(pb, main='Bioclim, raw values')
 plot(pb > tr, main='presence/absence')
 points(pres_train, pch='+')
 
-### SDM species stacking using 'SSDM' package
+###############################################
+### SDM species stacking using 'SSDM' package #
+###############################################
+
+rm(bioclim1, bioclim2, bioclim3, bioclim4, bioclim5, bioclim6, 
+   bioclim7, bioclim8, bioclim9, bioclim10, bioclim11, bioclim12,
+   bioclim13, bioclim14, bioclim15, bioclim16,
+   bioclim17, bioclim18, bioclim19, biome)
+
 predictors <- predictors
 occurrence_df_ssdm <- occurrence_df %>%
   dplyr::select(SPECIES, latitude, longitude) %>%
@@ -104,16 +112,18 @@ occurrence_df_ssdm <- occurrence_df %>%
          "LATITUDE" = "latitude") %>%
   dplyr::relocate(SPECIES, LONGITUDE, LATITUDE)
 
+rm(occurrence_df)
+
 # can test how many species with data (one or more lat/long)
 # this shows 202 - there are 206 in the berry list
 # species <- occurrence_df_ssdm %>% 
 #   distinct(SPECIES, .keep_all = TRUE)
 
-occurrence_df_ssdm_test <- occurrence_df_ssdm %>%
-  filter(SPECIES == "Malus fusca" | SPECIES == "Rubus canadensis" |
-           SPECIES == "Amelanchier alnifolia" | SPECIES == "Fragaria vesca")
+#occurrence_df_ssdm_test <- occurrence_df_ssdm %>%
+#  filter(SPECIES == "Malus fusca" | SPECIES == "Rubus canadensis" |
+#           SPECIES == "Amelanchier alnifolia" | SPECIES == "Fragaria vesca")
 
-SSDM <- stack_modelling("MAXENT", occurrence_df_ssdm_test, 
+SSDM <- stack_modelling("MAXENT", occurrence_df_ssdm, 
                         predictors, rep = 1, ensemble.thresh = 0,
                         Xcol = 'LONGITUDE', Ycol = 'LATITUDE',
                         Spcol = 'SPECIES', method = "pSSDM", verbose = FALSE)
