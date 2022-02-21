@@ -2,11 +2,11 @@
 
 library(raster)
 library(sf)
-library(maptools)
-library(dismo)
-library(rJava)
+# library(maptools)
+# library(dismo)
+# library(rJava)
 library(tidyverse)
-data(wrld_simpl)
+# data(wrld_simpl)
 library(SSDM)
 
 occurrence_df <- read.csv("./occurrence_data/occurrence_data_cleaned_thinned.csv")
@@ -48,7 +48,7 @@ predictors <- stack(bioclim1, bioclim2, bioclim3, bioclim4, bioclim5,
                     bioclim11, bioclim12, bioclim13, bioclim14, bioclim15,
                     bioclim16, bioclim17, bioclim18, bioclim19,
                     biome)
-  
+
 # names(predictors)
 # plot(biome)
 # plot(bioclim1)
@@ -63,38 +63,41 @@ predictors <- stack(bioclim1, bioclim2, bioclim3, bioclim4, bioclim5,
 #       occurrence_df_test$latitude, 
 #       col='black', pch=20, cex=0.75)
 
-ext <- extent(bioclim1)
+# ext <- extent(bioclim1)
 
-occurrence_df_test <- occurrence_df_test[,2:3]
-group <- kfold(occurrence_df_test, 5)
 
-pres_train <- occurrence_df_test[group != 1, ]
-pres_test <- occurrence_df_test[group == 1, ]
+### SDM for single species uding dismo package
 
-backg <- randomPoints(predictors, n=1000, ext=ext, extf = 1.25)
-colnames(backg) = c('lon', 'lat')
-group <- kfold(backg, 5)
-backg_train <- backg[group != 1, ]
-backg_test <- backg[group == 1, ]
+# occurrence_df_test <- occurrence_df_test[,2:3]
+# group <- kfold(occurrence_df_test, 5)
+
+# pres_train <- occurrence_df_test[group != 1, ]
+# pres_test <- occurrence_df_test[group == 1, ]
+
+# backg <- randomPoints(predictors, n=1000, ext=ext, extf = 1.25)
+# colnames(backg) = c('lon', 'lat')
+# group <- kfold(backg, 5)
+# backg_train <- backg[group != 1, ]
+# backg_test <- backg[group == 1, ]
 
 # evaluate importance of predictors for the training points
-xm <- maxent(predictors, pres_train, factor="biome")
+# xm <- maxent(predictors, pres_train, factor="biome")
 # use  RasterStack with predictor variables to make a prediction to RasterLayer:
-pb <- predict(predictors, xm, ext=ext, progress='')
+# pb <- predict(predictors, xm, ext=ext, progress='')
 
 # evaluate the model in a similar way, by providing presence and 
 # background (absence) points, the model, and a RasterStack:
-e <- dismo::evaluate(pres_test, backg_test, xm, predictors)
+# e <- dismo::evaluate(pres_test, backg_test, xm, predictors)
 
 # Find a threshold
-tr <- dismo::threshold(e, 'spec_sens')
-tr
+# tr <- dismo::threshold(e, 'spec_sens')
+# tr
 
 # plot raw values and presence/absence from threshold
-par(mfrow=c(1,2), mai = c(1, 0.5, 0.5, 1))
-plot(pb, main='Bioclim, raw values')
-plot(pb > tr, main='presence/absence')
-points(pres_train, pch='+')
+# par(mfrow=c(1,2), mai = c(1, 0.5, 0.5, 1))
+# plot(pb, main='Bioclim, raw values')
+# plot(pb > tr, main='presence/absence')
+# points(pres_train, pch='+')
 
 ###############################################
 ### SDM species stacking using 'SSDM' package #
@@ -130,6 +133,63 @@ SSDM <- stack_modelling("MAXENT", occurrence_df_ssdm,
 
 save.stack(SSDM, name = "Stack", path = getwd(), verbose = TRUE, GUI = FALSE)
 
-par(mfrow=c(1,1), mai = c(1, .5, 1, .5))
-plot(SSDM@diversity.map, main = 'stacked SDM\n for 4 berry species \nwith Maxent algorithms')
+par(mfrow=c(1,1), mai = c(0, .5, 1, .5))
+my_window <- extent(-150, -50, 40, 90)
+plot(my_window, col = NA)
+crs_string = "+proj=lcc +lat_1=49 +lat_2=77 +lon_0=-91.52 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs" # 2
+e <- extent(SSDM@diversity.map)
+plot(SSDM@diversity.map, 
+     add = TRUE, ext = e)
 
+test <-  raster("./Stack/Stack/Rasters/Diversity.tif")
+test_df <- as.data.frame(test, xy = TRUE)
+
+test2 <- projectRaster(test, crs = crs_string)
+test2_df <- as.data.frame(test2, xy = TRUE)
+
+p <- ggplot(test2_df) +
+  geom_tile(aes(x = x, y = y,
+                  fill = Diversity)) +
+  scale_fill_gradientn(name = "Berry \nSpecies Richness",
+                       colours = rev(terrain.colors(10)),
+                       na.value = "white")
+
+p <- p +
+  theme_bw() + theme(axis.line=element_blank(),
+                     panel.border = element_blank(), 
+                     panel.grid.major = element_blank(),
+                     panel.grid.minor = element_blank(), 
+                     axis.text.x=element_blank(),
+                     axis.text.y=element_blank(),
+                     axis.ticks=element_blank(),
+                     axis.title.x=element_blank(),
+                     axis.title.y=element_blank(),
+                     legend.position = c(0.85, 0.7))
+p
+
+## can map endemism too, but very few areas with any endemic species
+test3 <-  raster("./Stack/Stack/Rasters/Endemism.tif")
+# test_df <- as.data.frame(test3, xy = TRUE)
+
+test4 <- projectRaster(test3, crs = crs_string)
+test4_df <- as.data.frame(test4, xy = TRUE)
+
+q <- ggplot(test4_df) +
+  geom_tile(aes(x = x, y = y,
+                fill = Endemism)) +
+  scale_fill_gradientn(name = "Endemic \nBerry Species",
+                       colours = rev(terrain.colors(10)),
+                       na.value = "white")
+
+q <- q +
+  theme_bw() + theme(axis.line=element_blank(),
+                     panel.border = element_blank(), 
+                     panel.grid.major = element_blank(),
+                     panel.grid.minor = element_blank(), 
+                     axis.text.x=element_blank(),
+                     axis.text.y=element_blank(),
+                     axis.ticks=element_blank(),
+                     axis.title.x=element_blank(),
+                     axis.title.y=element_blank(),
+                     legend.position = c(0.85, 0.7))
+q
