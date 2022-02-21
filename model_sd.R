@@ -133,17 +133,18 @@ SSDM <- stack_modelling("MAXENT", occurrence_df_ssdm,
 
 save.stack(SSDM, name = "Stack", path = getwd(), verbose = TRUE, GUI = FALSE)
 
-par(mfrow=c(1,1), mai = c(0, .5, 1, .5))
-my_window <- extent(-150, -50, 40, 90)
-plot(my_window, col = NA)
-crs_string = "+proj=lcc +lat_1=49 +lat_2=77 +lon_0=-91.52 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs" # 2
+
+### plot the diversity map
+
+par(mfrow=c(1,1), mai = c(1, .5, 1, .5))
 e <- extent(SSDM@diversity.map)
-plot(SSDM@diversity.map, 
-     add = TRUE, ext = e)
+# plot(SSDM@diversity.map, 
+  #   add = TRUE, ext = e)
 
 test <-  raster("./Stack/Stack/Rasters/Diversity.tif")
 test_df <- as.data.frame(test, xy = TRUE)
 
+crs_string = "+proj=lcc +lat_1=49 +lat_2=77 +lon_0=-91.52 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs" # 2
 test2 <- projectRaster(test, crs = crs_string)
 test2_df <- as.data.frame(test2, xy = TRUE)
 
