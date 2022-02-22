@@ -142,13 +142,22 @@ e <- extent(SSDM@diversity.map)
   #   add = TRUE, ext = e)
 
 test <-  raster("./Stack/Stack/Rasters/Diversity.tif")
-test_df <- as.data.frame(test, xy = TRUE)
+canada <- st_read("./geo_data/canada_provinces.geojson")
 
+# test_df <- as.data.frame(test, xy = TRUE)
 crs_string = "+proj=lcc +lat_1=49 +lat_2=77 +lon_0=-91.52 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs" # 2
-test2 <- projectRaster(test, crs = crs_string)
-test2_df <- as.data.frame(test2, xy = TRUE)
 
-p <- ggplot(test2_df) +
+test2 <- projectRaster(test, crs = crs_string)
+canada2 <- st_transform(canada, crs = crs_string)
+
+test_crop <- crop(test2, canada2)
+test_mask <- mask(test_crop, canada2)
+
+test2_df <- as.data.frame(test2, xy = TRUE)
+test3_df <- as.data.frame(test_mask, xy = TRUE)
+
+
+p <- ggplot(test3_df) +
   geom_tile(aes(x = x, y = y,
                   fill = Diversity)) +
   scale_fill_gradientn(name = "Berry \nSpecies Richness",
