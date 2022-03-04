@@ -1,4 +1,6 @@
+### Berry Conservation - Species Distribution Models
 ### Species Distribution Models
+## Jens Ulrich February 2022
 
 library(raster)
 library(sf)
@@ -8,6 +10,7 @@ library(sf)
 library(tidyverse)
 # data(wrld_simpl)
 library(SSDM)
+
 
 occurrence_df <- read.csv("./occurrence_data/occurrence_data_cleaned_thinned.csv")
 
@@ -134,72 +137,3 @@ SSDM <- stack_modelling("MAXENT", occurrence_df_ssdm,
 save.stack(SSDM, name = "Stack", path = getwd(), verbose = TRUE, GUI = FALSE)
 
 
-### plot the diversity map
-
-par(mfrow=c(1,1), mai = c(1, .5, 1, .5))
-e <- extent(SSDM@diversity.map)
-# plot(SSDM@diversity.map, 
-  #   add = TRUE, ext = e)
-
-test <-  raster("./Stack/Stack/Rasters/Diversity.tif")
-canada <- st_read("./geo_data/canada_provinces.geojson")
-
-# test_df <- as.data.frame(test, xy = TRUE)
-crs_string = "+proj=lcc +lat_1=49 +lat_2=77 +lon_0=-91.52 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs" # 2
-
-test2 <- projectRaster(test, crs = crs_string)
-canada2 <- st_transform(canada, crs = crs_string)
-
-test_crop <- crop(test2, canada2)
-test_mask <- mask(test_crop, canada2)
-
-test2_df <- as.data.frame(test2, xy = TRUE)
-test3_df <- as.data.frame(test_mask, xy = TRUE)
-
-
-p <- ggplot(test3_df) +
-  geom_tile(aes(x = x, y = y,
-                  fill = Diversity)) +
-  scale_fill_gradientn(name = "Berry \nSpecies Richness",
-                       colours = rev(terrain.colors(10)),
-                       na.value = "white")
-
-p <- p +
-  theme_bw() + theme(axis.line=element_blank(),
-                     panel.border = element_blank(), 
-                     panel.grid.major = element_blank(),
-                     panel.grid.minor = element_blank(), 
-                     axis.text.x=element_blank(),
-                     axis.text.y=element_blank(),
-                     axis.ticks=element_blank(),
-                     axis.title.x=element_blank(),
-                     axis.title.y=element_blank(),
-                     legend.position = c(0.85, 0.7))
-p
-
-## can map endemism too, but very few areas with any endemic species
-test3 <-  raster("./Stack/Stack/Rasters/Endemism.tif")
-# test_df <- as.data.frame(test3, xy = TRUE)
-
-test4 <- projectRaster(test3, crs = crs_string)
-test4_df <- as.data.frame(test4, xy = TRUE)
-
-q <- ggplot(test4_df) +
-  geom_tile(aes(x = x, y = y,
-                fill = Endemism)) +
-  scale_fill_gradientn(name = "Endemic \nBerry Species",
-                       colours = rev(terrain.colors(10)),
-                       na.value = "white")
-
-q <- q +
-  theme_bw() + theme(axis.line=element_blank(),
-                     panel.border = element_blank(), 
-                     panel.grid.major = element_blank(),
-                     panel.grid.minor = element_blank(), 
-                     axis.text.x=element_blank(),
-                     axis.text.y=element_blank(),
-                     axis.ticks=element_blank(),
-                     axis.title.x=element_blank(),
-                     axis.title.y=element_blank(),
-                     legend.position = c(0.85, 0.7))
-q

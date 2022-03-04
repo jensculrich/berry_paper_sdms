@@ -1,5 +1,6 @@
 ### Berry Conservation - Species Distribution Models
 ### Data cleaning
+## Jens Ulrich February 2022
 
 library(tidyverse)
 library(sf)
@@ -23,6 +24,20 @@ occurrence_df <- raw_occurrence_df %>%
   filter(species != "") %>% # there are 4 records with blank names
   filter(!is.na(decimalLongitude)) # remove any occurrence without lat/long
   
+## count number of species
+occurrence_species <- occurrence_df %>%
+  ungroup() %>%
+  distinct(species, .keep_all = FALSE)
+
+berries <- read.csv("./berries_list.csv")
+berries <- berries %>%
+  dplyr::select(SPECIES) %>%
+  distinct() %>%
+  rename("species" = "SPECIES")
+
+x <- anti_join(berries, occurrence_species)
+y <- anti_join(as.vector(occurrence_species), berries)
+
 ## look at some test species to validate data
 occurrence_rubus_canadensis <- occurrence_df %>%
   filter(species == "Rubus canadensis")
@@ -244,5 +259,4 @@ xres(biome)
 extent(bioclim1_mask)
 extent(biome)
 
-writeRaster(biome, 
-      "./wc2.1_5m_bio_masked/biome.tif")
+# writeRaster(biome, "./wc2.1_5m_bio_masked/biome.tif")
