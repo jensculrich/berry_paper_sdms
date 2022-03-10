@@ -13,6 +13,8 @@ library(SSDM)
 
 
 occurrence_df <- read.csv("./occurrence_data/occurrence_data_cleaned_thinned.csv")
+occurrence_df_no_crataegus <- read.csv(
+  "./occurrence_data/occurrence_data_cleaned_thinned_no_crataegus.csv")
 
 bioclim1 <- raster("./wc2.1_5m_bio_masked/wc2.1_5m_bio_1.tif", quiet = TRUE) # 1
 bioclim2 <- raster("./wc2.1_5m_bio_masked/wc2.1_5m_bio_2.tif", quiet = TRUE) # 1
@@ -36,8 +38,8 @@ bioclim19 <- raster("./wc2.1_5m_bio_masked/wc2.1_5m_bio_19.tif", quiet = TRUE) #
 biome <- raster("./wc2.1_5m_bio_masked/biome.tif", quiet = TRUE)
 
 # can test that everything looks right
-occurrence_df_test <- occurrence_df %>%
-  filter(SPECIES == "Malus fusca")
+# occurrence_df_test <- occurrence_df %>%
+#  filter(SPECIES == "Malus fusca")
 
 # plot(bioclim1)
 # points(occurrence_df_test$longitude, 
@@ -117,8 +119,14 @@ occurrence_df_ssdm <- occurrence_df %>%
   rename("LONGITUDE" = "longitude",
          "LATITUDE" = "latitude") %>%
   dplyr::relocate(SPECIES, LONGITUDE, LATITUDE)
-
 rm(occurrence_df)
+
+occurrence_df_ssdm_no_crataegus <- occurrence_df_no_crataegus %>%
+  dplyr::select(SPECIES, latitude, longitude) %>%
+  rename("LONGITUDE" = "longitude",
+         "LATITUDE" = "latitude") %>%
+  dplyr::relocate(SPECIES, LONGITUDE, LATITUDE)
+rm(occurrence_df_no_crataegus)
 
 # can test how many species with data (one or more lat/long)
 # this shows 202 - there are 206 in the berry list

@@ -82,7 +82,7 @@ sp_distr_province <- anti_join(shape_joined_2, out_of_bounds, by = c('SPECIES', 
 # write.csv(sp_distr_province, "./occurrence_data/occurrence_data_cleaned.csv")
 
 ### thinning to reduce spatial autocorrelation
-# thin at distance of _ using spThin
+# thin at distance of 10km using spThin
 sp_distr_province_df <- read.csv("./occurrence_data/occurrence_data_cleaned.csv")
 
 species <- sp_distr_province_df %>% 
@@ -117,6 +117,11 @@ sp_distr_province_thinned <- thin(sp_distr_province_df,
                                   reps = 2)
 
 # write.csv(new_df, "./occurrence_data/occurrence_data_cleaned_thinned")
+# clean_data <- read.csv("./occurrence_data/occurrence_data_cleaned_thinned.csv")
+
+########################################
+# Now prep the climate variable layers #
+########################################
 
 # trim bioclim rasters to Canada
 canada <- st_read("./Geo_Data/canada.geojson", quiet = TRUE) # 1
@@ -126,137 +131,147 @@ plot <- ggplot(canada) +
   coord_sf(crs = crs_string)
 plot
 
+# need to actually use provinces instead to trim to terrestrial area
+provinces <- st_read("./geo_data/canada_provinces.geojson")
+crs_string = "+proj=lcc +lat_1=49 +lat_2=77 +lon_0=-91.52 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs" # 2
+plot <- ggplot(provinces) +
+  geom_sf(fill = "white", color = "gray60", size = 0.1) +
+  coord_sf(crs = crs_string)
+plot
+
 bioclim1 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_1.tif", quiet = TRUE) # 1
-bioclim1_crop <- crop(bioclim1, canada)
+bioclim1_crop <- crop(bioclim1, provinces)
 plot(bioclim1_crop)
-bioclim1_mask <- mask(bioclim1_crop, canada)
+bioclim1_mask <- mask(bioclim1_crop, provinces)
 plot(bioclim1_mask)
 points(occurrence_rubus_canadensis$decimalLongitude, 
        occurrence_rubus_canadensis$decimalLatitude, 
        col='black', pch=20, cex=0.75)
 
-# writeRaster(bioclim1_mask, 
-    #        "./wc2.1_5m_bio_masked/wc2.1_5m_bio_1.tif")
+writeRaster(bioclim1_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_1.tif")
 
 bioclim2 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_2.tif", quiet = TRUE) # 1
-bioclim2_crop <- crop(bioclim2, canada)
-bioclim2_mask <- mask(bioclim2_crop, canada)
-# writeRaster(bioclim2_mask, 
-      #      "./wc2.1_5m_bio_masked/wc2.1_5m_bio_2.tif")
+bioclim2_crop <- crop(bioclim2, provinces)
+bioclim2_mask <- mask(bioclim2_crop, provinces)
+writeRaster(bioclim2_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_2.tif")
 
 bioclim3 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_3.tif", quiet = TRUE) # 1
-bioclim3_crop <- crop(bioclim3, canada)
-bioclim3_mask <- mask(bioclim3_crop, canada)
-# writeRaster(bioclim3_mask, 
-      #      "./wc2.1_5m_bio_masked/wc2.1_5m_bio_3.tif")
+bioclim3_crop <- crop(bioclim3, provinces)
+bioclim3_mask <- mask(bioclim3_crop, provinces)
+writeRaster(bioclim3_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_3.tif")
 
 bioclim4 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_4.tif", quiet = TRUE) # 1
-bioclim4_crop <- crop(bioclim4, canada)
-bioclim4_mask <- mask(bioclim4_crop, canada)
-# writeRaster(bioclim4_mask, 
-    #        "./wc2.1_5m_bio_masked/wc2.1_5m_bio_4.tif")
+bioclim4_crop <- crop(bioclim4, provinces)
+bioclim4_mask <- mask(bioclim4_crop, provinces)
+writeRaster(bioclim4_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_4.tif")
 
 bioclim5 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_5.tif", quiet = TRUE) # 1
-bioclim5_crop <- crop(bioclim5, canada)
-bioclim5_mask <- mask(bioclim5_crop, canada)
-# writeRaster(bioclim5_mask, 
-      #      "./wc2.1_5m_bio_masked/wc2.1_5m_bio_5.tif")
+bioclim5_crop <- crop(bioclim5, provinces)
+bioclim5_mask <- mask(bioclim5_crop, provinces)
+writeRaster(bioclim5_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_5.tif")
 
 bioclim6 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_6.tif", quiet = TRUE) # 1
-bioclim6_crop <- crop(bioclim6, canada)
-bioclim6_mask <- mask(bioclim6_crop, canada)
-# writeRaster(bioclim6_mask, 
-      #      "./wc2.1_5m_bio_masked/wc2.1_5m_bio_6.tif")
+bioclim6_crop <- crop(bioclim6, provinces)
+bioclim6_mask <- mask(bioclim6_crop, provinces)
+writeRaster(bioclim6_mask, 
+          "./wc2.1_5m_bio_masked/wc2.1_5m_bio_6.tif")
 
 bioclim7 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_7.tif", quiet = TRUE) # 1
-bioclim7_crop <- crop(bioclim7, canada)
-bioclim7_mask <- mask(bioclim7_crop, canada)
-# writeRaster(bioclim7_mask, 
-        #    "./wc2.1_5m_bio_masked/wc2.1_5m_bio_7.tif")
+bioclim7_crop <- crop(bioclim7, provinces)
+bioclim7_mask <- mask(bioclim7_crop, provinces)
+writeRaster(bioclim7_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_7.tif")
 
 bioclim8 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_8.tif", quiet = TRUE) # 1
-bioclim8_crop <- crop(bioclim8, canada)
-bioclim8_mask <- mask(bioclim8_crop, canada)
-# writeRaster(bioclim8_mask, 
-     #       "./wc2.1_5m_bio_masked/wc2.1_5m_bio_8.tif")
+bioclim8_crop <- crop(bioclim8, provinces)
+bioclim8_mask <- mask(bioclim8_crop, provinces)
+writeRaster(bioclim8_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_8.tif")
 
 bioclim9 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_9.tif", quiet = TRUE) # 1
-bioclim9_crop <- crop(bioclim9, canada)
-bioclim9_mask <- mask(bioclim9_crop, canada)
-# writeRaster(bioclim9_mask, 
-     #       "./wc2.1_5m_bio_masked/wc2.1_5m_bio_9.tif")
+bioclim9_crop <- crop(bioclim9, provinces)
+bioclim9_mask <- mask(bioclim9_crop, provinces)
+writeRaster(bioclim9_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_9.tif")
 
 bioclim10 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_10.tif", quiet = TRUE) # 1
-bioclim10_crop <- crop(bioclim10, canada)
-bioclim10_mask <- mask(bioclim10_crop, canada)
-# writeRaster(bioclim10_mask, 
-      #      "./wc2.1_5m_bio_masked/wc2.1_5m_bio_10.tif")
+bioclim10_crop <- crop(bioclim10, provinces)
+bioclim10_mask <- mask(bioclim10_crop, provinces)
+writeRaster(bioclim10_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_10.tif")
 
 bioclim11 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_11.tif", quiet = TRUE) # 1
-bioclim11_crop <- crop(bioclim11, canada)
-bioclim11_mask <- mask(bioclim11_crop, canada)
-# writeRaster(bioclim11_mask, 
-       #     "./wc2.1_5m_bio_masked/wc2.1_5m_bio_11.tif")
+bioclim11_crop <- crop(bioclim11, provinces)
+bioclim11_mask <- mask(bioclim11_crop, provinces)
+writeRaster(bioclim11_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_11.tif")
 
 bioclim12 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_12.tif", quiet = TRUE) # 1
-bioclim12_crop <- crop(bioclim12, canada)
-bioclim12_mask <- mask(bioclim12_crop, canada)
-# writeRaster(bioclim12_mask, 
-      #      "./wc2.1_5m_bio_masked/wc2.1_5m_bio_12.tif")
+bioclim12_crop <- crop(bioclim12, provinces)
+bioclim12_mask <- mask(bioclim12_crop, provinces)
+writeRaster(bioclim12_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_12.tif")
 
 bioclim13 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_13.tif", quiet = TRUE) # 1
-bioclim13_crop <- crop(bioclim13, canada)
-bioclim13_mask <- mask(bioclim13_crop, canada)
-# writeRaster(bioclim13_mask, 
-       #     "./wc2.1_5m_bio_masked/wc2.1_5m_bio_13.tif")
+bioclim13_crop <- crop(bioclim13, provinces)
+bioclim13_mask <- mask(bioclim13_crop, provinces)
+writeRaster(bioclim13_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_13.tif")
 
 bioclim14 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_14.tif", quiet = TRUE) # 1
-bioclim14_crop <- crop(bioclim14, canada)
-bioclim14_mask <- mask(bioclim14_crop, canada)
-# writeRaster(bioclim14_mask, 
-      #      "./wc2.1_5m_bio_masked/wc2.1_5m_bio_14.tif")
+bioclim14_crop <- crop(bioclim14, provinces)
+bioclim14_mask <- mask(bioclim14_crop, provinces)
+writeRaster(bioclim14_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_14.tif")
 
 bioclim15 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_15.tif", quiet = TRUE) # 1
-bioclim15_crop <- crop(bioclim15, canada)
-bioclim15_mask <- mask(bioclim15_crop, canada)
-# writeRaster(bioclim15_mask, 
-        #    "./wc2.1_5m_bio_masked/wc2.1_5m_bio_15.tif")
+bioclim15_crop <- crop(bioclim15, provinces)
+bioclim15_mask <- mask(bioclim15_crop, provinces)
+writeRaster(bioclim15_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_15.tif")
 
 bioclim16 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_16.tif", quiet = TRUE) # 1
-bioclim16_crop <- crop(bioclim16, canada)
-bioclim16_mask <- mask(bioclim16_crop, canada)
-# writeRaster(bioclim16_mask, 
-       #     "./wc2.1_5m_bio_masked/wc2.1_5m_bio_16.tif")
+bioclim16_crop <- crop(bioclim16, provinces)
+bioclim16_mask <- mask(bioclim16_crop, provinces)
+writeRaster(bioclim16_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_16.tif")
 
 bioclim17 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_17.tif", quiet = TRUE) # 1
-bioclim17_crop <- crop(bioclim17, canada)
-bioclim17_mask <- mask(bioclim17_crop, canada)
-# writeRaster(bioclim17_mask, 
-        #   "./wc2.1_5m_bio_masked/wc2.1_5m_bio_17.tif")
+bioclim17_crop <- crop(bioclim17, provinces)
+bioclim17_mask <- mask(bioclim17_crop, provinces)
+writeRaster(bioclim17_mask, 
+          "./wc2.1_5m_bio_masked/wc2.1_5m_bio_17.tif")
 
 bioclim18 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_18.tif", quiet = TRUE) # 1
-bioclim18_crop <- crop(bioclim18, canada)
-bioclim18_mask <- mask(bioclim18_crop, canada)
-# writeRaster(bioclim18_mask, 
-      #      "./wc2.1_5m_bio_masked/wc2.1_5m_bio_18.tif")
+bioclim18_crop <- crop(bioclim18, provinces)
+bioclim18_mask <- mask(bioclim18_crop, provinces)
+writeRaster(bioclim18_mask, 
+          "./wc2.1_5m_bio_masked/wc2.1_5m_bio_18.tif")
 
 bioclim19 <- raster("./wc2.1_5m_bio/wc2.1_5m_bio_19.tif", quiet = TRUE) # 1
-bioclim19_crop <- crop(bioclim19, canada)
-bioclim19_mask <- mask(bioclim19_crop, canada)
-# writeRaster(bioclim19_mask, 
-     #       "./wc2.1_5m_bio_masked/wc2.1_5m_bio_19.tif")
+bioclim19_crop <- crop(bioclim19, provinces)
+bioclim19_mask <- mask(bioclim19_crop, provinces)
+writeRaster(bioclim19_mask, 
+           "./wc2.1_5m_bio_masked/wc2.1_5m_bio_19.tif")
 
 biome_sf <- st_read("./geo_data/canada_ecoregions_clipped.geojson", quiet = TRUE) # 1
 
 str(biome_sf)
 # Rasterize biome field and write to disk
 biome <- raster(crs = "+proj=longlat +datum=WGS84", vals = 0, resolution = 0.08333333, 
-                ext = extent(-141, -52.66667, 41.66667, 83.25))  %>%
+                ext = extent(-141, -52.58333, 41.91667, 83.08333))  %>%
   rasterize(biome_sf, .) 
 
 xres(bioclim1_mask)
 xres(biome)
 extent(bioclim1_mask)
 extent(biome)
+biome_crop <- crop(biome, provinces)
+biome_mask <- mask(biome_crop, provinces)
 
-# writeRaster(biome, "./wc2.1_5m_bio_masked/biome.tif")
+writeRaster(biome_mask, "./wc2.1_5m_bio_masked/biome.tif")
