@@ -21,7 +21,22 @@ ssdm_diversity_mask <- mask(ssdm_diversity_crop, canada2)
 
 ssdm_diversity_df <- as.data.frame(ssdm_diversity_mask, xy = TRUE)
 
+# make a crop to zoom in on the SE berry rich region
+ssdm_diversity_mask_se <- ssdm_diversity_mask
+e <- as(extent(500000, 2400000, 5830000, 7000000), 'SpatialPolygons')
+crs(e) <- crs(ssdm_diversity_mask_se)
+ssdm_diversity_mask_se_cropped <- crop(ssdm_diversity_mask_se, e)
+ssdm_diversity_df_se <- as.data.frame(ssdm_diversity_mask_se_cropped, xy = TRUE)
 
+# make a crop to zoom in on the SW berry rich region
+ssdm_diversity_mask_sw <- ssdm_diversity_mask
+e2 <- as(extent(-2700000, -600000, 6800000, 7970000), 'SpatialPolygons')
+crs(e2) <- crs(ssdm_diversity_mask_sw)
+ssdm_diversity_mask_sw_cropped <- crop(ssdm_diversity_mask_sw, e2)
+ssdm_diversity_df_sw <- as.data.frame(ssdm_diversity_mask_sw_cropped, xy = TRUE)
+
+
+# full map
 p <- ggplot(ssdm_diversity_df) +
   geom_tile(aes(x = x, y = y,
                 fill = Diversity)) +
@@ -40,7 +55,55 @@ p <- p +
                      axis.title.x=element_blank(),
                      axis.title.y=element_blank(),
                      legend.position = c(0.85, 0.7))
-#p
+p
+
+# se extent
+u <- ggplot(ssdm_diversity_df_se) +
+  geom_tile(aes(x = x, y = y,
+                fill = Diversity)) +
+  scale_fill_gradientn(name = "Berry \nSpecies Richness",
+                       colours = rev(terrain.colors(10)),
+                       na.value = "white")
+
+u <- u +
+  theme_bw() + theme(axis.line=element_blank(),
+                     panel.border = element_blank(), 
+                     panel.grid.major = element_blank(),
+                     panel.grid.minor = element_blank(), 
+                     axis.text.x=element_blank(),
+                     axis.text.y=element_blank(),
+                     axis.ticks=element_blank(),
+                     axis.title.x=element_blank(),
+                     axis.title.y=element_blank(),
+                     legend.position = "none")
+u
+
+# sw extent
+v <- ggplot(ssdm_diversity_df_sw) +
+  geom_tile(aes(x = x, y = y,
+                fill = Diversity)) +
+  scale_fill_gradientn(name = "Berry \nSpecies Richness",
+                       colours = rev(terrain.colors(10)),
+                       na.value = "white")
+
+v <- v +
+  theme_bw() + theme(axis.line=element_blank(),
+                     panel.border = element_blank(), 
+                     panel.grid.major = element_blank(),
+                     panel.grid.minor = element_blank(), 
+                     axis.text.x=element_blank(),
+                     axis.text.y=element_blank(),
+                     axis.ticks=element_blank(),
+                     axis.title.x=element_blank(),
+                     axis.title.y=element_blank(),
+                     legend.position = "none")
+
+z <- v + 
+  xlim(-2700000, -600000) +
+  ylim(6800000, 7970000) +
+  geom_sf(data = layer2, fill = "grey", alpha = 0.1, lwd = 0.01) #  BC polygons
+  
+z
 
 # need to unzip the kmz file
 # st_layers("C:/Users/jensj/Desktop/Berry_sdms/doc.kml")
@@ -118,7 +181,3 @@ r <- p +
   geom_sf(data = layer15, fill = "grey", alpha = 0.1) + # really not sure what this is. around Ottawa
   geom_sf(data = layer16, fill = "grey", alpha = 0.1, lwd = 0.01) # YT polygons
 r
-
-ssdm_diversity_mask_se <- ssdm_diversity_mask
-extent(xy) <- extent(c(-2, 2, -2, 2))
-extent(ssdm_diversity_mask_se)
