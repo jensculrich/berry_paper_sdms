@@ -40,7 +40,7 @@ p <- p +
                      axis.title.x=element_blank(),
                      axis.title.y=element_blank(),
                      legend.position = c(0.85, 0.7))
-# p
+#p
 
 # need to unzip the kmz file
 # st_layers("C:/Users/jensj/Desktop/Berry_sdms/doc.kml")
@@ -119,3 +119,6 @@ r <- p +
   geom_sf(data = layer16, fill = "grey", alpha = 0.1, lwd = 0.01) # YT polygons
 r
 
+ssdm_diversity_mask_se <- ssdm_diversity_mask
+extent(xy) <- extent(c(-2, 2, -2, 2))
+extent(ssdm_diversity_mask_se)
