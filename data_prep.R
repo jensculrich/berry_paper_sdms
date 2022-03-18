@@ -35,8 +35,22 @@ berries <- berries %>%
   distinct() %>%
   rename("species" = "SPECIES")
 
+
+# identify species missing or species mistakenly included
 x <- anti_join(berries, occurrence_species)
 y <- anti_join(as.vector(occurrence_species), berries)
+
+## there were some missing species, extra species, 
+## and species with character mismatch E.g. Fragaria ananassa
+## I manually cleaned the changes to those problem species in the vectors
+## x and y created by the anti_join above
+## by adding or editing the names in the file
+## ./occurrence_data/occurrence_data_cleaned_thinned.csv
+## most were GBIF records from species that are actually lumped as subsp or var of other species,
+## where the name designation had to be changed, e.g. Prunus susquehane to P. pumila var. susquehanae
+## all manual changes due to taxonomy mismatch recorded in the table:
+## ./occurrence_data/berries_mapped.xlsx
+
 
 ## look at some test species to validate data
 occurrence_rubus_canadensis <- occurrence_df %>%
@@ -118,6 +132,17 @@ sp_distr_province_thinned <- thin(sp_distr_province_df,
 
 # write.csv(new_df, "./occurrence_data/occurrence_data_cleaned_thinned")
 # clean_data <- read.csv("./occurrence_data/occurrence_data_cleaned_thinned.csv")
+
+occurrence_df <- read.csv("./occurrence_data/occurrence_data_cleaned_thinned.csv")
+
+## count number of species
+occurrence_species <- occurrence_df %>%
+  ungroup() %>%
+  distinct(SPECIES, .keep_all = FALSE)
+
+# identify species missing or species mistakenly included
+x <- anti_join(berries, occurrence_species)
+y <- anti_join(as.vector(occurrence_species), berries)
 
 ########################################
 # Now prep the climate variable layers #
