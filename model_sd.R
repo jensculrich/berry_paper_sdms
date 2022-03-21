@@ -142,6 +142,13 @@ SSDM <- stack_modelling("MAXENT", occurrence_df_ssdm,
                         Xcol = 'LONGITUDE', Ycol = 'LATITUDE',
                         Spcol = 'SPECIES', method = "pSSDM", verbose = FALSE)
 
+SSDM_no_crataegus <- stack_modelling("MAXENT", occurrence_df_ssdm_no_crataegus, 
+                        predictors, rep = 1, ensemble.thresh = 0,
+                        Xcol = 'LONGITUDE', Ycol = 'LATITUDE',
+                        Spcol = 'SPECIES', method = "pSSDM", verbose = TRUE)
+
+
 save.stack(SSDM, name = "Stack", path = getwd(), verbose = TRUE, GUI = FALSE)
+save.stack(SSDM_no_crataegus, name = "SSDM_no_crataegus", path = getwd(), verbose = TRUE, GUI = FALSE)
 
 

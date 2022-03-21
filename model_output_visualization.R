@@ -8,7 +8,8 @@ library(tidyverse)
 library(cowplot)
 
 ### plot the diversity map
-ssdm_diversity <-  raster("./Stack/Stack/Rasters/Diversity.tif")
+# ssdm_diversity <-  raster("./Stack/Stack/Rasters/Diversity.tif")
+ssdm_diversity <-  raster("./SSDM_no_crataegus/Stack/Rasters/Diversity.tif")
 canada <- st_read("./geo_data/canada_provinces.geojson")
 
 # test_df <- as.data.frame(test, xy = TRUE)
@@ -55,7 +56,7 @@ p <- p +
                      axis.ticks=element_blank(),
                      axis.title.x=element_blank(),
                      axis.title.y=element_blank(),
-                     legend.position = c(0.95, 0.7))
+                     legend.position = c(0.8, 0.7))
 p
 
 # need to unzip the kmz file
