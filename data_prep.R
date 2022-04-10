@@ -139,6 +139,7 @@ occurrence_df <- read.csv("./occurrence_data/occurrence_data_cleaned_thinned.csv
 occurrence_species <- occurrence_df %>%
   ungroup() %>%
   distinct(SPECIES, .keep_all = FALSE)
+# haskap, Lonicera caerulea is missing!
 
 # identify species missing or species mistakenly included
 x <- anti_join(berries, occurrence_species)
