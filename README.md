@@ -1,11 +1,11 @@
 # Berry Species Distributions
 
-Data and code used to generate species distribution models and
-in situ conservation scores included in the manuscript submission 
-"Berries as a case study for crop wild relative conservation, use, 
-and public engagement in Canada"
+Data and code used to generate species distribution models and in situ conservation scores included in the accepted article  
+Migicovsky et al. 2022 - "Berries as a case study for crop wild relative conservation, use, and public engagement in Canada" (provide link when available).
 
 Please see metadata.xlsx for detailed data description of "berry_list" which is used for Supplemental Table S2 in the accepted paper.
+
+Please contact me if you have interest in viewing species distribution model outputs for any of the 206 individual species, as the files are too large to be uploaded to this directory in bulk. 
 
 ## Data
 ### berries_list.csv
@@ -26,6 +26,9 @@ Multipolygon shapefile including unique polygons for each province area
 #### out_of_bound_ranges_provincial.csv  
 List of provincial regions where species-specific occurrences potentially do not reflect
 established populations
+
+#### CPCAD_Dec202.kmz
+Canadian protected areas (2021), accessed via https://www.canada.ca/en/environment-climate-change/services/national-wildlife-areas/protected-conserved-areas-database.html
 
 ### occurrence_data  
 #### berries_mapped.xlsx
