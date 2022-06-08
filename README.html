@@ -169,30 +169,113 @@ pre code {
 
 <div id="berry-species-distributions" class="section level1">
 <h1>Berry Species Distributions</h1>
-<p>Stacked Species Distribution Models for the manuscript submission “Berries as a case study for crop wild relative conservation, use, and public engagement in Canada”</p>
+<p>Data and code used to generate species distribution models and in situ conservation scores included in the manuscript submission “Berries as a case study for crop wild relative conservation, use, and public engagement in Canada”</p>
 <p>Please see metadata.xlsx for detailed data descriptions</p>
 <div id="data" class="section level2">
 <h2>Data</h2>
 <div id="berries_list.csv" class="section level3">
 <h3>berries_list.csv</h3>
-<p>A list of ‘berry’ taxa that are native or naturalized in Canada.</p>
+<p>A list of ‘berry’ taxa that are native or naturalized in Canada. Includes brief information on use, conservation status and genetic proximity to crop species where applicable</p>
+</div>
+<div id="geo_data" class="section level3">
+<h3>geo_data</h3>
+<div id="canada.geojson" class="section level4">
+<h4>canada.geojson</h4>
+<p>shapefile used to define geographic area of Canada</p>
+</div>
+<div id="canada_ecoregions_clipped.geojson" class="section level4">
+<h4>canada_ecoregions_clipped.geojson</h4>
+<p>Level III ecoregions (obtained from U.S. Environmental Protection Agency) clipped to canada.geojson spatial extent</p>
+</div>
+<div id="canada_provinces.geojson" class="section level4">
+<h4>canada_provinces.geojson</h4>
+<p>Multipolygon shapefile including unique polygons for each province area</p>
+</div>
+<div id="out_of_bound_ranges_provincial.csv" class="section level4">
+<h4>out_of_bound_ranges_provincial.csv</h4>
+<p>List of provincial regions where species-specific occurrences potentially do not reflect established populations</p>
+</div>
 </div>
 <div id="occurrence_data" class="section level3">
 <h3>occurrence_data</h3>
+<div id="berries_mapped.xlsx" class="section level4">
+<h4>berries_mapped.xlsx</h4>
+<p>notes on which berry species had issues in the initial creation of the species distribution maps, including the 13 species of Crataegus which were ultimately unable to be resolved.</p>
+</div>
 <div id="berry_occurrence.csv-and-berry_occurrence_part2.csv" class="section level4">
 <h4>berry_occurrence.csv and berry_occurrence_part2.csv</h4>
-<p>GBIF records for all _ Canadian berry species considered</p>
+<p>GBIF records for all 206 Canadian berry species considered. Was too big for processing for me to fit all in one csv file.</p>
 </div>
+<div id="occurrence_data_cleaned.csv" class="section level4">
+<h4>occurrence_data_cleaned.csv</h4>
+<p>This is the actual occurrence data used to train and test the species distribution models. In ‘Rfile_data_prep.R’ I took the raw occurrence data ‘berry_occurrence.csv’ and ‘berry_occurrence_part2.csv’, and:<br />
+- removed unnecessary columns,<br />
+- removed rows with no lat/long data<br />
+- removed duplicated observations of the same species from the same lat/long<br />
+- filtered out points within ‘out_of_bound_ranges_provincial.csv’</p>
+</div>
+<div id="occurrence_data_cleaned_thinned.csv" class="section level4">
+<h4>occurrence_data_cleaned_thinned.csv</h4>
+<p>Used spThin() (with two rounds) to thin occurrence points within 10km to reduce spatial autocorrelation. The individual species files are in the folder ‘thinned_occurrence_data’, but here are combined into one .csv with all species. These data used to generate the species distribution models that are stacked in Figure S1</p>
+</div>
+<div id="occurrence_data_cleaned_thinned.csv-1" class="section level4">
+<h4>occurrence_data_cleaned_thinned.csv</h4>
+<p>occurrence_data_cleaned_thinned.csv minus any occurrence points from Crataegus spp.. These data used to generate the species distribution models that are stacked in Figure 1.</p>
+</div>
+</div>
+<div id="wc2.1_5m_bio_masked" class="section level3">
+<h3>wc2.1_5m_bio_masked</h3>
+<p>Includes rasters for the standard 19 bioclimatic variables (<a href="https://www.worldclim.org/data/bioclim.html" class="uri">https://www.worldclim.org/data/bioclim.html</a>) and level III ecoregions, clipped to Canada.</p>
 </div>
 </div>
 <div id="r-files" class="section level2">
 <h2>R files</h2>
 <div id="rfile_data_prep.r" class="section level3">
 <h3>Rfile_data_prep.R</h3>
+<ul>
+<li>clean occurrence data;<br />
+</li>
+<li>crop and mask bioclimatic data to appropriate geographic area.</li>
+</ul>
+<div id="rfile_model_sd.r" class="section level4">
+<h4>Rfile_model_sd.R</h4>
+<p>Given cleaned occurrence data and bioclimatic data, test and train species specific models of habitat suitability in Canada using a MAXENT algorithm. Run in a batch across all species or all species excluding Crataegus, but can also be modified to run individually.</p>
+</div>
+<div id="rfile_model_output_visualization.r" class="section level4">
+<h4>Rfile_model_output_visualization.R</h4>
+<p>Plot Figures 1 and S1</p>
+</div>
+<div id="rfile_conservation_scores.r" class="section level4">
+<h4>Rfile_conservation_scores.R</h4>
+<p>Use individual species distribution models and protected area data to calculate overlap/mismatch between suitable habitat (modeled in Rfile_model_sd.R) and Canada’s protected areas.</p>
+</div>
 </div>
 </div>
 <div id="outputs" class="section level2">
 <h2>Outputs</h2>
+<div id="stack-and-ssdm_no_crataegus" class="section level3">
+<h3>Stack and SSDM_no_crataegus</h3>
+<p>Currently not synced with github becuase of the file size, these two stacks include the output species distributions from running the maxent models, including uncertainty and model diagnostics. Will try to upload in pieces to overcome max file size upload constraints.</p>
+</div>
+<div id="output_tables_and_figures" class="section level3">
+<h3>output_tables_and_figures</h3>
+<div id="figure_1.pdf" class="section level4">
+<h4>figure_1.pdf</h4>
+<p>Berry species richness (excluding Cratagues spp.) mapped across Canada (A). Species distribution was mapped for each species and converted to a binary - habitat suitable or unsuitable for occurrence. The number of species for which habitat is suitable in each ~10km x 10km grid cell is summed to yield potential local species richness. Potential local species richness is mapped relative to the maximum number of species, from pink (low species richness) to green (high species richness). Protected areas are mapped in grey to display overlap/mismatch between protected areas and potential species richness. (B) and (C) display inset maps to focus overlap/mismatch in the regions of Canada with highest berry species richness, southwestern and southeastern Canada respectively.</p>
+</div>
+<div id="figure_s1.pdf" class="section level4">
+<h4>figure_S1.pdf</h4>
+<p>Berry species richness (including Cratagues spp.) mapped across Canada (A). Species distribution was mapped for each species and converted to a binary - habitat suitable or unsuitable for occurrence. The number of species for which habitat is suitable in each ~10km x 10km grid cell is summed to yield potential local species richness. Protected areas are mapped in grey to display overlap/mismatch between protected areas and potential species richness. (B) and (C) display inset maps to focus overlap/mismatch in the regions of Canada with highest berry species richness, southwestern and southeastern Canada respectively.</p>
+</div>
+<div id="in_situ_conservation_scores.csv" class="section level4">
+<h4>in_situ_conservation_scores.csv</h4>
+<p>The caluclated proportion of suitable habitat for each species that overlaps with Canada’s protected areas. Ranges from a score of 0/0% (no overlap between suitable habitat and protected area) to 1/100% (complete overlap). The mean overlap is 11.6%, sd = 5.9%.</p>
+</div>
+<div id="test_protected_area_comparison_amelanchier_cusickii.pdf" class="section level4">
+<h4>test_protected_area_comparison_Amelanchier_cusickii.pdf</h4>
+<p>Demonstation of method used to calculate in situ conservation scores. For the test species, Amelanchier cusickii, blue cells represent area where habitat is predicted to be suitable but not protected and grey cells represent suitable habitat areas that overlap with the protected areas (black). In situ conservation score is then calculated as protected area overlap (grey cells) divided by total potential range size (blue cells + grey cells).</p>
+</div>
+</div>
 </div>
 </div>
 
